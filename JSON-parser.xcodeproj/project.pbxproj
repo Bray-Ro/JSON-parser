@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F44CE32E26C4586200FCEDFD /* JSON-parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JSON-parser"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44CE33126C4586200FCEDFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F44CE33926C45B4D00FCEDFD /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F44CE33126C4586200FCEDFD /* main.c */,
+				F44CE33926C45B4D00FCEDFD /* data.json */,
 			);
 			path = "JSON-parser";
 			sourceTree = "<group>";
