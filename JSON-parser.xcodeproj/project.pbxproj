@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F400F61F26DFF2CC00FCA602 /* structdef.c in Sources */ = {isa = PBXBuildFile; fileRef = F400F61E26DFF2CC00FCA602 /* structdef.c */; };
 		F44CE33226C4586200FCEDFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F44CE33126C4586200FCEDFD /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F400F61D26DFF2CC00FCA602 /* structdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structdef.h; sourceTree = "<group>"; };
+		F400F61E26DFF2CC00FCA602 /* structdef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structdef.c; sourceTree = "<group>"; };
 		F44CE32E26C4586200FCEDFD /* JSON-parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JSON-parser"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44CE33126C4586200FCEDFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F44CE33926C45B4D00FCEDFD /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				F44CE33126C4586200FCEDFD /* main.c */,
 				F44CE33926C45B4D00FCEDFD /* data.json */,
+				F400F61D26DFF2CC00FCA602 /* structdef.h */,
+				F400F61E26DFF2CC00FCA602 /* structdef.c */,
 			);
 			path = "JSON-parser";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F400F61F26DFF2CC00FCA602 /* structdef.c in Sources */,
 				F44CE33226C4586200FCEDFD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
